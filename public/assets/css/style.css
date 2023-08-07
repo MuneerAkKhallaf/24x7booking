@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: "Barlow", sans-serif;
+    line-height: 1.7;
+    color: #516171;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700 !important;
+    color: #092032;
+}
+
+a {
+    color: #092032;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+
+
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+
+/* NAVBAR */
+
+.top-nav {
+    background-color: #2970ff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.top-nav p {
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: #ffffff ;
+}
+
+.top-nav i,
+.top-nav span {
+    vertical-align:middle ;
+}
+
+.social-links a {
+    width: 34px;
+    height: 34px;
+    background-color: #ffffff44;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color:#ffffff;
+    font-size: 20px;
+    border-radius: 100%;
+    
+}
+
+.social-links a:hover {
+    background-color: #ffffff;
+    color: #ff4d29;
+}
+
+.navbar {
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.navbar .navbar-nav .nav-link:hover
+
+ {
+color: #ff4d29;
+background-color: #ffffff;
+
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    color: #2970ff;
+}
+
+.navbar-brand a {
+    font-weight: 700;
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.navbar-brand span {
+    color: #092032;
+}
+
+/* BTN*/
+
+.btn {
+    padding: 9px 24px;
+    font-weight: 500;
+}
+
+.btn-brand {
+    background-color: #ff4d29;
+    color: white !important;
+    border-color: #ff4d29;
+}
+
+.btn-brand:hover {
+    color:#ffffff;
+    background-color: #f62900;
+}
+
+
+.flightimg {
+    background-image: url(../img/beach.jpg) ;
+    background-position: center ;
+    background-size: cover;
+
+}
+
+.holidayimg {
+
+    background-image: url(../img/maldives1.jpg) ;
+    background-position: center ;
+    background-size: cover;
+
+}
+
+.hotelimg {
+
+    background-image: url(../img/hotelspic.jpg) ;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.bigger-input {
+    width: 700px !important;
+    height: 40px !important
+  }
+.center-placeholder::placeholder{
+
+    text-align: center;
+    align-items: center;
+    justify-content: center !important;
+
+}
+
+
+.explore {
+  padding: 24px 28px; 
+  font-size: 28px; 
+}
+
+
+  /* Button style before click */
+
+  
+  /* Button style after click */
+  .custom-btn:active {
+    background-color: green;
+  }
+
+
+  .catpost {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.catchild {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+}
+
+  
+
+
